@@ -1,0 +1,90 @@
+.sec-3-main-div {
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../images/backimg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.contenedorGlobal{
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../images/backimg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.sec-3-slider-parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* gap: 3rem; */
+  padding: 0px 1rem;
+}
+
+.cardBlue {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  gap: 20px;
+  background-color: #141E47;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.move-sec3-btn {
+  top: -30px;
+}
+
+.width-responsive-for-slider {
+  width: 90%;
+}
+
+.txtTournaments{
+  font-size: 50rem;
+  color: aqua;
+}
+
+.contentTxtTour{
+  width: auto;
+  height: auto;
+  background-color: blue;
+}
+
+.contenTiitle{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  .width-responsive-for-slider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .move-sec3-btn {
+    top: -15px;
+  }
+}

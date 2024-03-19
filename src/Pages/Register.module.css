@@ -1,0 +1,14 @@
+.contenPage{
+    width: 100%;
+    height: auto;
+    align-items: center;
+   padding: 2%;
+    background-color: #141E47;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.txtErrorTitle{
+    font-size: 14px;
+    color: #EC1C24;
+}

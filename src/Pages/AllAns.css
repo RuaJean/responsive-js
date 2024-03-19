@@ -1,0 +1,43 @@
+.Someter-picks-btn {
+  background-color: #02a551;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 42px;
+}
+
+.SubAnsModalHeadtxt {
+  color: #141e47;
+  font-size: 32px;
+}
+
+.SubAnsModaltxt {
+  color: #706e6e;
+  font-size: 12px;
+}
+
+.SubAnsModalBluebtn {
+  color: white;
+  border: none;
+  border-radius: 13px;
+  width: 45%;
+  height: 45px;
+  background-color: #141e47;
+}
+
+.SubAnsModalGreenbtn {
+  color: white;
+  border: none;
+  border-radius: 13px;
+  width: 45%;
+  height: 45px;
+  background-color: #02a551;
+}
+@media screen and (max-width: 540px) {
+  .SubAnsModalBluebtn {
+    width: 60%;
+  }
+  .SubAnsModalGreenbtn {
+    width: 60%;
+  }
+}

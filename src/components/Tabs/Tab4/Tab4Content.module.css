@@ -1,0 +1,299 @@
+.contentName {
+  width: 70%;
+  height: 100px;
+  display: inline;
+}
+
+.contentEntrys {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.contentPosition {
+  display: inline;
+  width: 5%;
+  justify-content: center;
+}
+
+.txtPosition {
+  font-size: 25px;
+  color: green;
+}
+
+.contentInfoJugadores {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  background-color: #e1e1e3;
+  border-radius: 15px;
+}
+
+.contentImage {
+  display: inline;
+  width: 20%;
+  height: 100%;
+}
+
+.subContentImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.imageUser {
+  width: 65px;
+  height: 65%;
+}
+
+.subContentName {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.nameCont {
+  width: auto;
+  height: auto;
+}
+
+.contentButton {
+  width: 10%;
+  display: inline;
+}
+
+.subContentButton {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.contentSubTitle {
+  margin-left: 200px;
+}
+
+.contentInfoAnswers {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  background-color: #e1e1e3;
+  border-radius: 15px;
+}
+
+.contentAnswUser {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentEntrysAns {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 17%;
+  padding-right: 13%;
+}
+
+.divSeparator {
+  width: auto;
+  height: auto;
+  margin-left: 5%;
+}
+
+.nameContent2 {
+  width: 80%;
+  height: auto;
+}
+
+.contentScore {
+  width: 20%;
+  height: auto;
+}
+
+.contentNameEntrys {
+  width: 100%;
+  height: 100px;
+  display: inline;
+}
+
+.titleScore {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.txtScore {
+  font-size: 28px;
+  color: #02a551;
+}
+
+.txtQuestion {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.txtNamePicks{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txtScorePicks{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.txtNormal{
+    font-size: 18px;
+}
+
+.imgArrow{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.txtPuntuacionNor{
+    font-size: 18px;
+}
+
+.txtAnswerUser{
+    font-size: 20px;
+}
+
+.txtSubtituloPicks{
+    color:#02a551;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .txtPosition {
+        font-size: 20px;
+        color: green;
+      }
+
+      .imageUser {
+        width: 50px;
+        height: 50%;
+      }
+
+      .txtNamePicks{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .txtScorePicks{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .txtNormal{
+        font-size: 15px;
+    }
+
+    .imgArrow{
+        display: flex;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 5px;
+    }
+
+    .txtQuestion {
+        font-size: 17px;
+        font-weight: bolder;
+      }
+
+      .txtPuntuacionNor{
+        font-size: 12px;
+    }
+
+    .txtScore {
+        font-size: 33px;
+        color: #02a551;
+      }
+
+      .txtAnswerUser{
+        font-size: 14px;
+    }
+
+    .txtSubtituloPicks{
+        color:#02a551;
+        font-size: 20px;
+    }
+
+    .contentSubTitle {
+        margin-left: 125px;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .txtPosition {
+        font-size: 15px;
+        color: green;
+      }
+
+      .imageUser {
+        width: 35px;
+        height: 35%;
+      }
+
+      .txtNamePicks{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .txtScorePicks{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .txtNormal{
+        font-size: 12px;
+    }
+
+    .imgArrow{
+        display: flex;
+        width: 10px;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+
+    .txtQuestion {
+        font-size: 10px;
+        font-weight: bolder;
+      }
+
+      .txtPuntuacionNor{
+        font-size: 6px;
+    }
+
+    .txtScore {
+        font-size: 18px;
+        color: #02a551;
+      }
+
+      .txtAnswerUser{
+        font-size: 9px;
+    }
+
+    .txtSubtituloPicks{
+        color:#02a551;
+        font-size: 16px;
+    }
+
+    .contentSubTitle {
+        margin-left: 50px;
+      }
+}

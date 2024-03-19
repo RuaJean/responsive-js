@@ -1,0 +1,81 @@
+
+.contentButton{
+  padding: 10px;
+}
+
+.verinfoButton{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentInformation {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.game-info-verinfoButton > .tab-btn {
+  background-color: #02a551 !important;
+  border: #02a551 !important;
+  color: white !important;
+}
+
+
+
+.butonTab{
+  background-color: #02a551 !important;
+  border: #02a551 !important;
+  color: white !important;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .content_max{
+      width: 100%;
+      display: flex;
+      flex-direction: column; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .contentButton{
+    padding: 4px;
+    display: inline-flex;
+    width: 26%;
+    justify-content: center;
+  }
+  
+  .contentInformation {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .verinfoButton.active > .tab-btn {
+    background-color: #02a551 !important;
+    border: #02a551 !important;
+    color: white !important;
+    width: 100%;
+    height: 80%;
+ 
+  }
+
+  .verinfoButton > .tab-btn {
+    background-color: white;
+    border: white;
+    color: #02a551;
+    width: 100%;
+    font-size: 11px;
+    height: 80%;
+    justify-content: center;
+
+  }
+
+
+}

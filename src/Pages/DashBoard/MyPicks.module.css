@@ -1,0 +1,133 @@
+.containerSub {
+  width: 100%;
+  display: flex;
+
+  padding-inline: 13%;
+}
+
+.divPicks {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.divContenGame {
+  width: 100%;
+  height: auto;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.txtPicks {
+  font-size: 50px;
+  color: #141e47;
+  display: inline;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.checkboxLabel {
+  display: flex;
+  flex-direction: column-reverse; /* Cambiado a columna con reversa para que el texto esté encima del checkbox */
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.checkboxText {
+  font-size: 16px; /* Tamaño de fuente ajustado según tu preferencia */
+  font-weight: 600; /* Peso de la fuente para negrita */
+}
+
+.customCheckbox {
+  position: relative;
+  width: 33px;
+  height: 33px;
+  border: 3px solid #141e47;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.innerCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  display: none;
+}
+
+#myPicksContainer input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .customCheckbox .innerCircle {
+  display: block;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .containerSub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2%;
+    background-color: green;
+  }
+
+  .checkboxText {
+    font-size: 14px; /* Tamaño de fuente ajustado según tu preferencia */
+    font-weight: 600; /* Peso de la fuente para negrita */
+  }
+
+  .divPicks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  .txtPicks {
+    font-size: 40px;
+    color: #141e47;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .containerSub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5%;
+  }
+
+  .checkboxText {
+    font-size: 12px; /* Tamaño de fuente ajustado según tu preferencia */
+    font-weight: 600; /* Peso de la fuente para negrita */
+  }
+
+  .divPicks {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  .txtPicks {
+    font-size: 30px;
+    color: #141e47;
+    display: inline;
+  }
+}

@@ -1,0 +1,64 @@
+.width-tab4content {
+  width: 80%;
+}
+
+.padding-for-image-tab4content {
+  padding: 0px 20px 0px 20px;
+}
+
+.test-bolte-bhai {
+  display: grid;
+  grid-template-columns: 30px 60px 1fr;
+  place-items: center;
+}
+
+.grid-bolte-bhai-users-data-team-wala {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  place-items: center;
+}
+
+.image-parent-div-tab4content {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-parent-div-tab4content-without-border-radius {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-size-txt-userpage {
+  font-size: 20px;
+}
+
+.txtPremio{
+  color: #02a551;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .width-tab4content {
+    width: 90%;
+  }
+  .padding-for-image-tab4content {
+    padding: 0px 10px 0px 10px;
+  }
+  .font-size-txt-userpage {
+    font-size: 18px;
+  }
+
+  .txtPremio{
+    color: #02a551;
+    font-size: 18px;
+  }
+}

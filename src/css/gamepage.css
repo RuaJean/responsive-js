@@ -1,0 +1,39 @@
+.height-juegos {
+    height: 30vh;
+}
+
+.size-incre {
+    font-size: 60px;
+}
+
+.width-60 {
+    width: 60% !important;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.game-card {
+    border: 2px solid rgba(20, 30, 71, 1) !important;
+    width: 90%;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.vote-card {
+    border: 2px solid rgba(20, 30, 71, 1) !important;
+    width: 100%;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.game-card-header {
+    background-color: rgba(20, 30, 71, 1) !important;
+    border-radius: 0 !important;
+    color: white !important;
+}

@@ -1,0 +1,183 @@
+.cardBlue {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #141e47;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenCard {
+  width: 100%;
+  height: 80%;
+}
+
+.imagenCard_vista {
+  width: 100%;
+  height: 100%;
+}
+
+.txt_name {
+  width: 100%;
+  height: 100%;
+  color: #02a551;
+  font-size: 24px;
+}
+
+.btn_card {
+  width: 50%;
+  height: 45px;
+  padding: 6px 14px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #02a551;
+  color: white;
+}
+
+.dataCard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  
+}
+
+.subData_card {
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  padding-left: 20px;
+  flex-direction: column;
+}
+
+.div_btn {
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.txtTournaments {
+  font-size: 4rem;
+  color: white;
+}
+
+.contentTxtTour {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contenLinear {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.contenTiitle {
+  width: 100%;
+  height: auto;
+}
+
+.txtDescripcion{
+  font-size: 14px;
+  color: white;
+}
+
+.linearGreen {
+  width: 30%;
+  height: 0.5rem;
+  background-color: #02a551;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .width-responsive-for-slider {
+    width: 100%;
+  }
+
+  .txtTournaments {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .txt_name {
+    width: 100%;
+    height: 100%;
+    color: #02a551;
+    font-size: 18px;
+  }
+
+  .btn_card {
+    width: 50%;
+    height: 45px;
+    padding: 6px 14px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #02a551;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .move-sec3-btn {
+    top: -15px;
+  }
+
+  .txtTournaments {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .txt_name {
+    width: 100%;
+    height: 100%;
+    color: #02a551;
+    font-size: 14px;
+  }
+
+  .btn_card {
+    width: 70%;
+    height: 35px;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: #02a551;
+    color: white;
+    display: inline-flex;
+  }
+
+  .subData_card {
+    width: 60%;
+    height: 100%;
+    display: inline-flex;
+    padding-left: 20px;
+    
+    flex-direction: column;
+  }
+
+  .div_btn {
+    width: 40%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .txtDescripcion{
+    font-size: 10px;
+    color: white;
+  }
+}

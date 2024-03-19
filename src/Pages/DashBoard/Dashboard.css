@@ -1,0 +1,50 @@
+.Dashboard-Nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  padding: 1rem;
+}
+
+.bg-color-blue-sec-small {
+  width: 75%;
+}
+
+.dash-pick-head {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 834px) {
+  .dash-btn {
+    width: 180px !important;
+    font-size: 14px !important;
+    height: 55px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .dash-pick-head {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dash-btn {
+    width: 170px !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .dash-pick-head {
+    font-size: 16px;
+  }
+  .bg-color-blue-sec-small {
+    width: 95%;
+  }
+  .dash-btn {
+    width: 200px !important;
+    height: 52px !important;
+  }
+  .Dashboard-Nav {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}
