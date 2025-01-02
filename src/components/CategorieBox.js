@@ -95,8 +95,11 @@ const CategorieBox = () => {
 
   return (
     <div className="containerBox">
+       
+      
       <LeftArrowFun/>
       <div className="containercards">
+      <h2 className="title">Categorías</h2>
         <Swiper
           ref={swiperRef}
           slidesPerView={3}

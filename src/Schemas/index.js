@@ -17,6 +17,7 @@ export const RegisterSchema = Yup.object({
     [true],
     "Para continuar debe leer y aceptar nuestros Términos y Condiciones."
   ),
+  
   DateofBirth: Yup.date().max(subYears(new Date(), 18), 'Debe ser mayor de 18 años')
     .required('Fecha de nacimiento es requerida'),
   check1: Yup.boolean().oneOf([true], 'Debe aceptar que es mayor de 18 años'),

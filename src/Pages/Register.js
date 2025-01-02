@@ -469,53 +469,56 @@ function Register() {
               </Form.Group>
 
               <Form.Group className="mb-3 form-field-width text-size-small">
-                <div>
-                  <div className="d-flex">
-                    <Form.Check
-                      value={values.check1}
-                      onChange={handleChange}
-                      onBlur={handleBlur}
-                      name="check1"
-                      id="check-box-1"
-                      className="color-blue _form"
-                    />
-                    <label htmlFor="check-box-1">
-                      Para registrase en LotoXport usted acepta que es mayor de
-                      18 años de edad.
-                    </label>
-                  </div>
-                  {errors.check1 && touched.check1 ? (
-                    <p className="form-error"> {errors.check1} </p>
-                  ) : null}
-                </div>
-                <div>
-                  <div className="d-flex">
-                    <Form.Check
-                      value={values.check2}
-                      onChange={handleChange}
-                      onBlur={handleBlur}
-                      name="check2"
-                      id="check-box-2"
-                      aria-label="option 1"
-                      className="color-blue _form"
-                    />
-                    <label htmlFor="check-box-2">
-                      Al registarse en LotoXport usted acepta que ha leído y
-                      entendido nuestros{" "}
-                      <Link
-                        to="/Terminos-y-Condiciones"
-                        className="color-green text-decoration-none"
-                      >
-                        Términos y Condiciones
-                      </Link>
-                      .
-                    </label>
-                  </div>
-                  {errors.check2 && touched.check2 ? (
-                    <p className="form-error"> {errors.check2} </p>
-                  ) : null}
-                </div>
-              </Form.Group>
+    <div>
+        <div className="d-flex">
+            <Form.Check
+                value={values.check1}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                name="check1"
+                id="check-box-1"
+                className="color-blue _form"
+            />
+            <label htmlFor="check-box-1">
+                Para registrarse en LotoXport usted acepta que es mayor de
+                18 años de edad.
+            </label>
+        </div>
+        {errors.check1 && touched.check1 ? (
+            <p className="form-error"> {errors.check1} </p>
+        ) : null}
+    </div>
+    <div>
+        <div className="d-flex">
+            <Form.Check
+                value={values.check2}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                name="check2"
+                id="check-box-2"
+                aria-label="option 1"
+                className="color-blue _form"
+            />
+            <label htmlFor="check-box-2">
+                Al registarse en LotoXport usted acepta que ha leído y
+                entendido nuestros{" "}
+                <a
+                    href="/Terminos-y-Condiciones"
+                    target="_blank" // Aquí se usa el elemento <a> con target="_blank"
+                    rel="noopener noreferrer"
+                    className="color-green text-decoration-none"
+                >
+                    Términos y Condiciones ??? 
+                </a>
+                .
+            </label>
+        </div>
+        {errors.check2 && touched.check2 ? (
+            <p className="form-error"> {errors.check2} </p>
+        ) : null}
+    </div>
+</Form.Group>
+
 
               <div className="mb-3">
                 <div className="item-center mt-3">
